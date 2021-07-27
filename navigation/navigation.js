@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { HomeScreen } from './home';
-import { DetailsScreen } from './detail.component';
+import { HomeScreen } from '../screens/home';
+import { DetailsScreen } from '../screens/detail.component';
 import { BottomNavigation, BottomNavigationTab, Layout, Text, Drawer, DrawerItem, IndexPath, Icon , DrawerGroup } from '@ui-kitten/components';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 

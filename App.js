@@ -27,7 +27,7 @@ import { default as theme } from './custom-theme.json';
 //
 import { default as mapping } from './mapping.json';
 //
-import { AppNavigator } from './screens/navigation';
+import { AppNavigator } from './navigation/navigation';
 /**
  * Use any valid `name` property from eva icons (e.g `github`, or `heart-outline`)
  * https://akveo.github.io/eva-icons
